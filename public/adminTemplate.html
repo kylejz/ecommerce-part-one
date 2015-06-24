@@ -1,0 +1,21 @@
+<h2>CREATE!</h2>
+<form name="createItem">
+	<input type="text" placeholder="name" ng-model="newItem.name">
+	<input type="text" placeholder="color" ng-model="newItem.color">
+	<input type="text" placeholder="type" ng-model="newItem.type">
+	<button ng-click="createNewItem(newItem)">yes please</button>
+</form>
+<h2>EDIT!</h2>
+<form>
+	<input ng-model="itemNumber"><br>
+	<input type="text" placeholder="name" ng-model="itemToEdit.name">
+	<input type="text" placeholder="color" ng-model="itemToEdit.color">
+	<input type="text" placeholder="type" ng-model="itemToEdit.type">
+	<button ng-click="editItem(itemNumber, itemToEdit)">yes please</button>
+</form>
+<h2>DELETE!</h2>
+<form>
+	<input ng-model="itemNumber2"><br>
+	<button ng-click="deleteItem(itemNumber2)">yes please</button>
+</form>
+<a href="/#/">back to main</a>

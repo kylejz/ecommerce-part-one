@@ -1,0 +1,10 @@
+<div ng-repeat="item in products | orderBy: 'type'">
+	<div class="itemBlock">
+		<div>{{item.name}}</div>
+		<div>{{item.type}}</div>
+		<div>{{item.color}}</div>
+		<div>{{item._id}}</div>
+	</div>
+</div>
+<a href="/#/search">Search</a>
+<a href="/#/admin">owner resources</a>

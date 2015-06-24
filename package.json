@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce-part-one",
+  "version": "1.0.0",
+  "description": "part of of the ecommerce series of projects",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylejz/ecommerce-part-one.git"
+  },
+  "keywords": [
+    "foo",
+    "poo",
+    "goo",
+    "stew"
+  ],
+  "author": "Wiz Kalifa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kylejz/ecommerce-part-one/issues"
+  },
+  "homepage": "https://github.com/kylejz/ecommerce-part-one#readme",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.0",
+    "mongojs": "^1.0.1"
+  }
+}

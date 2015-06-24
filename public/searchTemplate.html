@@ -1,0 +1,14 @@
+<form>
+	<input type="text" ng-model="searchData.prop" required>
+	<input type="text" ng-model="searchData.val" required>
+	<button ng-click="getNewData(searchData)">worddddd</button>
+</form>
+
+<div ng-repeat="item in foundProducts">
+	<div class="itemBlock">
+		<div>{{item.name}}</div>
+		<div>{{item.type}}</div>
+		<div>{{item.color}}</div>
+	</div>
+</div>
+<a href="/#/">run home, jack</a>
